@@ -14,3 +14,7 @@ print(w, x, y, z, sep=',')
 print(w, x, y, z, sep='')
 print(w, x, y, z, sep=':')
 print(w, x, y, z, sep='.....')
+
+
+print('{:<30}{:^30}{:>30}'.format('Kiri','Tengah','Kanan'))
+print('{:<30}{:^30}{:>30}'.format(12,34,56))

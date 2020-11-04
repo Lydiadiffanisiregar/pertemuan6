@@ -26,47 +26,49 @@ print("= NIM     : 312010498                 ") <br>
 print("= KELAS   : TI.20 A.1                 ") <br>
 print("======================================") <br>
 
-`print("Please enter your full name : ")`
-`fullname=input()`
-`print("Please enter nickname : ")`
-`nickname=input()`
-`print("Please enter your NPM : ")`
-`npm=int(input())`
-`print("Please enter place of birth : ")`
-`pob=input()`
-`print("Please enter date of birth : ")`
-`date=int(input())`
-`print("Please enter your month of birth : ")`
-`month=input()`
-`print("Please enter year of birth : ")`
-`year=int(input())`
-`print("Please enter your phone number : ")`
-`phone=int(input())`
-`print("Please enter your address : ")`
-`address=input()`
+```` python
+print("Please enter your full name : ")
+fullname=input()
+print("Please enter nickname : ")
+nickname=input()
+print("Please enter your NPM : ")
+npm=int(input())
+print("Please enter place of birth : ")
+pob=input()
+print("Please enter date of birth : ")
+date=int(input())
+print("Please enter your month of birth : ")
+month=input()
+print("Please enter year of birth : ")
+year=int(input())
+print("Please enter your phone number : ")
+phone=int(input())
+print("Please enter your address : ")
+address=input()
 
-`dob=input(2020-year)` <br>
+dob=input(2020-year)
 
-`print("\n\n Hallo. ")`
+print("\n\n Hallo. ")
 print(f"Let me introduce my self, my name is {fullname}, but you can call me {nickname}, my NPM {npm}, I was born in {pob} and iam {dob} years old, I am very glad if you want to invite my house in {address}, So don't forget to call me before with the number {phone}, \n\n Thanks you ")
+````
 
 
 Berikut Penjelasannya :<br>
- python
+```` python
 print("please enter your full name : ")
-
+````
 Source code diatas berfungsi untuk mencetak hasil / output berupa *Please enter your full name :* ". <br>
  Untuk menampilkan output string, saya menggunakan tanda petik dua didalam fungsi print(), sedangkan jika saya ingin menampilkan output atau hasil berupa angka atau interger saya tidak perlu menggunakan tanda petik dua. Contohnya :
- python
+ ```` python
 print("Nama saya adalah...")
 print(1234567)
-
+````
 (Seperti gambar dibawah ini)<br> 
 ![Output fungsi Print](foto/lydia.PNG )
  * Untuk source code berikutnya adalah inputan atau membuat variable. seperti syntax dibawah ini :
-  python
+ ```` python
 fullname=input()
- 
+ ````
 Keterangan : <br> 
 >Variable adalah sebuah wadah penyimpanan data pada program yang akan akan digunakan selama program itu berjalan. yang berfungsi sebagai variable dalam source code diatas adalah *fullname* . <br>
 >Fungsi *input()* adalah untuk memasukan nilai dari layar console di command prompt, lalu kemudian mengembalikan nilai saat kita menekan tombol enter (newline)<br> 
@@ -85,17 +87,17 @@ dob=2020-year
 
 * langkah kali ini saya akan menampilkan output yang diminta oleh dosen.<br>
 output pertama yang diminta Dosen adalah menampilkan salam, yaitu dengan mengetikkan syntax/source code berikut : 
- python
+```` python
 print("\n\n Hallo. ")
-
+````
  Keterangan :
 1. Fungsi *\n* pada source code di atas adalah untuk memberi baris baru / enter / (newline)
 2. Fungsi print() seperti dijelaskan pada point *Output* diatas
 Hasil dari source code diatas adalah seperti gambar dibawah ini :<br>
 ![Output Salam](foto/nama2.png)
- python
+```` python
 print(f"Let me introduce my self, my name is {fullname}, but you can call me {nickname}, my NPM {npm}, I was born in {pob} and iam {dob} years old, I am very glad if you want to invite my house in {address}, So don't forget to call me before with the number {phone}, \n\n Thanks you ")
- 
+```` 
 Keterangan : 
 1. Fungsi huruf *f* pada perintah print(f"....") adalah fungsi print atau bisa memudahkan programer dalam mencetak statement dalam satu baris dibandingkan dengan metode yang lama yaitu memisahkan string dan variable dengan simbol koma( , ) atau plus ( + )<br>
 2. sedangkan fungsi {} pada output tersebut adalah untuk menampilkan hasil dari variable<br>
@@ -109,7 +111,7 @@ Hasil dari output tersebut seperti berikut :<br>
 ## Pertemuan 6 - Lab 1
 
 Pada halaman ini (Tugas Pertemuan 6 - Lab 1) saya diberikan tugas oleh Dosen yaitu mempelajari operator aritmatika menggunakan bahasa Pemrograman pyhton. Berikut source code yang di berikan oleh dosen :
- python
+```` python
 #penggunaan end
 print('A', end='')
 print('B', end='')
@@ -126,60 +128,60 @@ print(w, x, y, z, sep=',')
 print(w, x, y, z, sep='')
 print(w, x, y, z, sep=':')
 print(w, x, y, z, sep='.....')
-
+````
 Oke, kali ini saya akan menjelaskan tentang materi yang di berikan oleh Dosen.<br>
 
 *Penggunaan END
 Penggunaan end digunakan untuk menambahkan karakter yang dicetak di akhir baris. secara default penggunaan end adalah untuk ganti baris.   
- python  
+```` python  
 print('A', end='')
 print('B', end='')
 print('C', end='')
-
+````
 > Penggunaan print () digunakan untuk mencetak output, seperti syntax dibawah ini :
 
- python
+```` python
 print()
-
+````
 >Syntax dibawah ini digunakan untuk menampilkan output berupa string
- python
+```` python
 print('X')
 print('Y')
 print('z')
-
+````
 Hasil dari source code tersebut seperti gambar dibawah ini :<br>
-![Output END](gambar/lab1_end.PNG)
+![Output END](foto/.PNG)
 
 * Penggunaan separator
 
 >Pendeklarasian beberapa variable beserta nilainya
- python
+```` python
 w,x,y,z=10,15,20,25
-
+````
 
 >Menampilkan hasil dari variable tiap-tiap variable
- python
+```` python
 print(w,x,y,z)
-
+````
 
 >Menampilkan hasil dari tiap-tiap variable dengan menggunakan pemisah : (koma)
- python
+```` python
 print(w,x,y,z,sep=",")
-
+````
 >Menampilkan hasil dari tiap-tiap variable dengan menggunakan pemisah
- python
+```` python
 print(w,x,y,z,sep="")
-
+````
 
 >Menampilkan hasil dari tiap-tiap variable dengan menggunakan pemisah : (titik dua)
- python
+```` python
 print(w,x,y,z,sep=":")
-
+````
 
 >Menampilkan hasil dari tiap-tiap variable dengan menggunakan pemisah -----
- python
+```` python
 print(w,x,y,z,sep="-----")
-
+````
 
 hasil dari syntax / source code diatas adalah seperti berikut ini : <br>
 ![Output Separator](gambar/lab1-separator.PNG)
@@ -196,9 +198,10 @@ hasil dari syntax / source code diatas adalah seperti berikut ini : <br>
 * String Format<br>
 String formatting atau pemformatan string memungkinan kita menyuntikkan item kedalam string dari pada kita mencoba menggabungkan string menggunakan koma atau string concatenation.<br>
 
-Penggunaan source code yang di berikan oleh dosen seperti berikut :
-![Lab 1-2](gambar/Lab1-2.PNG)
- python
+Penggunaan source code yang di berikan oleh dosen seperti berikut : 
+([pertemuan 6 lab 1-2](lab1-2.py))
+![Lab 1-2](foto/lab1-2.png)
+```` python
 #string format 1
 print(0, 10**0)
 print(1, 10**1)
@@ -223,7 +226,7 @@ print('{0:>3} {1:>16}'.format(7, 10**7))
 print('{0:>3} {1:>16}'.format(8, 10**8))
 print('{0:>3} {1:>16}'.format(9, 10**9))
 print('{0:>3} {1:>16}'.format(10, 10**10))
-
+````
 <br>
 Saat ini saya akan membahas satu persatu dari syntax yang telah diberikan oleh Dosen.<br>
 
@@ -232,30 +235,30 @@ Pada syntax / source code strring format satu akan menampilkan output berupa 2 o
 Yang pertama (sebelah kiri) akan menampilkan angka urut dari angka 0 hingga 10, sedangkan untuk sebelah kanan akan menampilkan Operasi Aritmatika Pangkat.<br> 
 Dengan ketentuan sebagai berikut, Operasi pangkat dengan angka kiri sebagai pokok (Rumus : ** [bintang dua] )<br>
  Hasil dari syntax tersebut adalah 10 pangkat 0, hingga 10 pangkat 10, dengan output  sebagai berikut : <br>
- ![Operasi Aritmatika Pangkat](gambar/Lab1-2_pangkat.PNG)
+ ![Operasi Aritmatika Pangkat](foto/nama5.PNG)
  
  2 * String Format 2* <br>
  Pada syntax atau source code string format dua akan menampilkan output berupa 2 output'an juga (seperti String Format 1, yaitu kanan dan kiri )<br>
  Dengan ketentuan sebagai berikut : <br>
  >secara Default, *.format()* menggunakan rata kiri, angka ke kanan. kita dapat menggunakan opsi opsional <,^, atau > untuk mengatur perataan kiri, tengah, atau kanan. Contoh lain dalam penggunaan *.format()* sebagai berikut :<br> 
 
-  python
+````  python
 print('{0:8} | {1:9}'.format('buah','Jumlah'))
 print('{0:8} | {1:9}'.format('Apel',3.))
 print('{0:8} | {1:9}'.format('Jeruk',10))
-
+````
 Hasil dari source code contoh diatas akan seperti berikut :<br>
-![Output Alignment Contoh](gambar/contoh_12.PNG)
->Secara Default,*.format()* menggunakan rata text ke kiri, angka ke kanan, kita dapat menggunakan opsi opsional<,^,atau > untuk mengatur perataan kiri, tengah, atau kanan. Contoh lain dalam penggunaan *.format()* sebagai berikut : <br>
+![Output Alignment Contoh](foto/nama6.PNG)
+>Secara Default,*.format()* menggunakan ratanama text ke kiri, angka ke kanan, kita dapat menggunakan opsi opsional<,^,atau > untuk mengatur perataan kiri, tengah, atau kanan. Contoh lain dalam penggunaan *.format()* sebagai berikut : <br>
  python
 print('{:<30}{:30}{:>30}'.format('kiri','tengah','kanan'))
 print('{:<30}{:30}{:>30}'.format(7,20,34))
 
 Hasil dari source code contoh diatas akan muncul seperti ini :<br>
-![Output Alignment Contoh 2](gambar/contoh_123.PNG)
+![Output Alignment Contoh 2](foto/nama7.PNG)
 <br><br>
 Untuk hasil dari String Format 2 adalah :<br>
-![Output String Format 2](gambar/string2.PNG)
+![Output String Format 2](foto/nama8.png)
 
 <br><hr><br>
 
@@ -263,7 +266,7 @@ Untuk hasil dari String Format 2 adalah :<br>
 * Konversi Nilai Variable <br>
 Untuk pembahasan terakhir, kali ini akan menyelesaikan tugas Lab 2 dari Dosen, yaitu konversi Nilai Variable<br>
 Tugas 
-![Picture Lab 2](gambar/Lab2.PNG)
+![Picture Lab 2](foto/Lab2.png)
  python
 a=input("masukkan nilai a : ")
 b=input("masukkan nilai b : ")
@@ -280,16 +283,7 @@ print("hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
 <br>
 Setelah saya menjelaskan source code tersebut terdapat error, seperti gambar dibawah ini :<br>
 
-![Error Lab 2](gambar/error1.PNG)<br>
-Nah, untuk kali ini kita akan membaca error yang telah terjadi.<br>
-> *TypeError: %d format: a  number is required, not str* <br>
-
-Pada error tersebut terdapat terbaca bahwa variable tersebut a adalah string, yang seharusnya dibaca oleh system adalah Number / Interger.<br>
-bagaimana cara memperbaiki error tersebut?<br>
-Kita lihat pada baris ke 5 (di notifikasi terbaca bahwa error terletak pada baris ke 5), yaitu pemformatan *.format()* adalah interger, sedangkan jika berupa string maka akan ada tanda titik dua ("..") pada pemformatan *.format()*<br>
-Kita akan terfokus pada variable a dan b. <br> 
-Pada line 1 tertulis syntax : a=input("masukan nilai a : ") <br>
-Sedangkan pada line 2 tertulis syntax : b=input("masukan nilai b : ") <br>
+=input("masukan nilai b : ") <br>
 Untuk membuat inputan berupa interger/angka harus ditambahkan syntax int() pada format input(). yang seharusnya ditulis adalah : <br>
  python
 a=int(input("masukkan nilai a:"))
@@ -299,6 +293,9 @@ b=int(input("masukkan nilai b:"))
 Kita akan ulangi semua syntax pada file ini, maka tulis seperti ini :<br>
 
  python
+ Konversi Nilai Variable Untuk pembahasan terakhir, kali ini akan myenyelesaikan tugas Lab 2 dari Dosen, yaitu Konversi Nilai Variable
+Tugas yang di berikan oleh Dosen adalah seperti gambar dibawah ini atau bisa di temukan dengan link berikut :
+
 a=int(input("masukkan nilai a:"))
 b=int(input("masukkan nilai b:"))
 print("variable a=",a)
@@ -312,7 +309,7 @@ print("hasil penjumlahan {1}+{0}=%d".format(a,b) %(a+b))
 print("hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
 
 Kita akan coba lagi untuk run file tersebut, maka akan muncul seperti gambar dibawah ini :<br>
- ![Fixed Error Lab 2](gambar/fixed.PNG)
+ ![Fixed Error Lab 2](foto/nama9.PNG)
  <br><br>
  <hr>
  Setelah semua file berhasil disimpan dan dijalankan berhasil, maka selesai sudah Tugas pertemuan 6 - Bahasa pemrograman kali ini.

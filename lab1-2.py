@@ -1,11 +1,15 @@
-a=input("masukkan nilai a:")
-b=input("masukkan nilai b:")
-print("variable a=",a)
-print("variable b=",b)
-print("hasil penggabungan {1}&{0}=%d".format(a,b) %(a+b))
+a=int(input("Masukkan Nilai A : "))
+b=int(input("Masukkan Nilai B : "))
+print("Variable A : ",a)
+print("Variable B : ",b)
+print("Hasil penggabungan {1}&{0}=%d".format(a,b) %(a+b))
 
-#konversi nilai variable
+#Konversi nilai variable
 a=int(a)
-b=int()
-print("hasil penjumlahan {1}+{0}".format(a,b) %(a+b))
-print("hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
+b=int(b)
+print("Hasil penjumlahan {1}+{0}=%d".format(a,b) %(a+b))
+print("Hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
+
+print('{0:8} | {1:9}'.format('buah','Jumlah'))
+print('{0:8} | {1:9}'.format('Apel',3.))
+print('{0:8} | {1:9}'.format('Jeruk',10))
