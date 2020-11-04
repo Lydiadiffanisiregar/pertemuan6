@@ -52,7 +52,7 @@ print(f"Let me introduce my self, my name is {fullname}, but you can call me {ni
 
 
 Berikut Penjelasannya :<br>
- ```python
+ python
 print("please enter your full name : ")
 
 Source code diatas berfungsi untuk mencetak hasil / output berupa *Please enter your full name :* ". <br>
