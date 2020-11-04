@@ -20,11 +20,11 @@ Pada pertemuan 5 Bahasa Pemrograman saya diberi tugas oleh Dosen untuk membuat A
 Saat ini saya akan menjelaskan hasil dari tugas tersebut.<br>
 Berikut source code nya atau Klik Link berikut ([Tugas 5 python](tugas_pertemuan5.py)): <br>
  python
-print("======================================")
-print("= NAMA    : LYDIA DIFFANI SIREGAR     ")
-print("= NIM     : 312010498                 ")
-print("= KELAS   : TI.20 A.1                 ")
-print("======================================")
+print("======================================") <br>
+print("= NAMA    : LYDIA DIFFANI SIREGAR     ") <br>
+print("= NIM     : 312010498                 ") <br>
+print("= KELAS   : TI.20 A.1                 ") <br>
+print("======================================") <br>
 
 print("Please enter your full name : ")
 fullname=input()
