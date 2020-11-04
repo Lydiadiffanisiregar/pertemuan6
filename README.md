@@ -26,32 +26,33 @@ print("= NIM     : 312010498                 ") <br>
 print("= KELAS   : TI.20 A.1                 ") <br>
 print("======================================") <br>
 
-print("Please enter your full name : ")
-fullname=input()
-print("Please enter nickname : ")
-nickname=input()
-print("Please enter your NPM : ")
-npm=int(input())
-print("Please enter place of birth : ")
-pob=input()
-print("Please enter date of birth : ")
-date=int(input())
-print("Please enter your month of birth : ")
-month=input()
-print("Please enter year of birth : ")
-year=int(input())
-print("Please enter your phone number : ")
-phone=int(input())
-print("Please enter your address : ")
-address=input()
+`print("Please enter your full name : ")`
+`fullname=input()`
+`print("Please enter nickname : ")`
+`nickname=input()`
+`print("Please enter your NPM : ")`
+`npm=int(input())`
+`print("Please enter place of birth : ")`
+`pob=input()`
+`print("Please enter date of birth : ")`
+`date=int(input())`
+`print("Please enter your month of birth : ")`
+`month=input()`
+`print("Please enter year of birth : ")`
+`year=int(input())`
+`print("Please enter your phone number : ")`
+`phone=int(input())`
+`print("Please enter your address : ")`
+`address=input()`
 
-dob=2020-year
+`dob=input(2020-year)` <br>
 
-print("\n\n Assalamu'alaikum. ")
+`print("\n\n Hallo. ")`
 print(f"Let me introduce my self, my name is {fullname}, but you can call me {nickname}, my NPM {npm}, I was born in {pob} and iam {dob} years old, I am very glad if you want to invite my house in {address}, So don't forget to call me before with the number {phone}, \n\n Thanks you ")
 
+
 Berikut Penjelasannya :<br>
- python
+ ```python
 print("please enter your full name : ")
 
 Source code diatas berfungsi untuk mencetak hasil / output berupa *Please enter your full name :* ". <br>
@@ -85,7 +86,7 @@ dob=2020-year
 * langkah kali ini saya akan menampilkan output yang diminta oleh dosen.<br>
 output pertama yang diminta Dosen adalah menampilkan salam, yaitu dengan mengetikkan syntax/source code berikut : 
  python
-print("\n\n Assalamu'alaikum. ")
+print("\n\n Hallo. ")
 
  Keterangan :
 1. Fungsi *\n* pada source code di atas adalah untuk memberi baris baru / enter / (newline)
