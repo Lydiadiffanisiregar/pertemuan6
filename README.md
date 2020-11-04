@@ -72,7 +72,7 @@ Keterangan : <br>
 >Fungsi *input()* adalah untuk memasukan nilai dari layar console di command prompt, lalu kemudian mengembalikan nilai saat kita menekan tombol enter (newline)<br> 
  (newline)<br>
 
-[input](foto/nama1.png)<br>
+[input](foto/nama.PNG)<br>
 pada gambar di atas, hasil dari inputan tersebut berwarna hijau<br><br>
 * Untuk memasukan perintah lain seperti Nikname, NPM, Place Of Birth, Date Of Birth, Year Of Birth, Phone Number, and Addres mengikuti perintah sama seperti memasukan fullname<br>
 
