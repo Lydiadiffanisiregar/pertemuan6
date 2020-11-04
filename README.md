@@ -71,7 +71,7 @@ Keterangan : <br>
 >Fungsi *input()* adalah untuk memasukan nilai dari layar console di command prompt, lalu kemudian mengembalikan nilai saat kita menekan tombol enter (newline)<br> 
  (newline)<br>
 
-[input](praktikum/nama.png)<br>
+[input](foto/nama1.png)<br>
 pada gambar di atas, hasil dari inputan tersebut berwarna hijau<br><br>
 * Untuk memasukan perintah lain seperti Nikname, NPM, Place Of Birth, Date Of Birth, Year Of Birth, Phone Number, and Addres mengikuti perintah sama seperti memasukan fullname<br>
 
@@ -91,7 +91,7 @@ print("\n\n Assalamu'alaikum. ")
 1. Fungsi *\n* pada source code di atas adalah untuk memberi baris baru / enter / (newline)
 2. Fungsi print() seperti dijelaskan pada point *Output* diatas
 Hasil dari source code diatas adalah seperti gambar dibawah ini :<br>
-![Output Salam](praktikum/print.png)
+![Output Salam](foto/nama2.png)
  python
 print(f"Let me introduce my self, my name is {fullname}, but you can call me {nickname}, my NPM {npm}, I was born in {pob} and iam {dob} years old, I am very glad if you want to invite my house in {address}, So don't forget to call me before with the number {phone}, \n\n Thanks you ")
  
@@ -99,7 +99,7 @@ Keterangan :
 1. Fungsi huruf *f* pada perintah print(f"....") adalah fungsi print atau bisa memudahkan programer dalam mencetak statement dalam satu baris dibandingkan dengan metode yang lama yaitu memisahkan string dan variable dengan simbol koma( , ) atau plus ( + )<br>
 2. sedangkan fungsi {} pada output tersebut adalah untuk menampilkan hasil dari variable<br>
 Hasil dari output tersebut seperti berikut :<br>
-![All output](praktikum/apa.png)
+![All output](foto/nama3.png)
 
 <br>
 ---
