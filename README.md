@@ -1,9 +1,9 @@
 # pertemuan6
 # pertemuan6_smt1
 Repository ini di buat untuk memenuhi tugas bahasa pemrograman pertemuan ke 6 <br> <br>
-Nama  : Lydia Diffani Siregar<br>
-Nim   : 312010498<br>
-Kelas : TI.20 A.1<br><br>
+### Nama  : Lydia Diffani Siregar<br>
+### Nim   : 312010498<br>
+### Kelas : TI.20 A.1<br><br>
 
 DAFTAR ISI
 | No | Description | Link |
@@ -18,7 +18,7 @@ DAFTAR ISI
 Pada pertemuan 5 Bahasa Pemrograman saya diberi tugas oleh Dosen untuk membuat Aplikasi Biodata Python (seperti Gambar dibawah ini)
 ![tugas_5](foto/biodata.png)<br>
 Saat ini saya akan menjelaskan hasil dari tugas tersebut.<br>
-Berikut source code nya atau Klik Link berikut ([Tugas 5 python](tugas_pertemuan5.py)): <br>
+Berikut source code nya atau Klik Link berikut ([Tugas 5 python](pertemuan5.py)): <br>
  python
 print("======================================") <br>
 print("= NAMA    : LYDIA DIFFANI SIREGAR     ") <br>
@@ -74,7 +74,7 @@ Keterangan : <br>
 >Fungsi *input()* adalah untuk memasukan nilai dari layar console di command prompt, lalu kemudian mengembalikan nilai saat kita menekan tombol enter (newline)<br> 
  (newline)<br>
 
-[input](foto/nama.PNG)<br>
+![input](foto/nama.PNG)<br>
 pada gambar di atas, hasil dari inputan tersebut berwarna hijau<br><br>
 * Untuk memasukan perintah lain seperti Nikname, NPM, Place Of Birth, Date Of Birth, Year Of Birth, Phone Number, and Addres mengikuti perintah sama seperti memasukan fullname<br>
 
@@ -94,7 +94,7 @@ print("\n\n Hallo. ")
 1. Fungsi *\n* pada source code di atas adalah untuk memberi baris baru / enter / (newline)
 2. Fungsi print() seperti dijelaskan pada point *Output* diatas
 Hasil dari source code diatas adalah seperti gambar dibawah ini :<br>
-![Output Salam](foto/nama2.png)
+![Output Salam](foto/print.png)
 ```` python
 print(f"Let me introduce my self, my name is {fullname}, but you can call me {nickname}, my NPM {npm}, I was born in {pob} and iam {dob} years old, I am very glad if you want to invite my house in {address}, So don't forget to call me before with the number {phone}, \n\n Thanks you ")
 ```` 
