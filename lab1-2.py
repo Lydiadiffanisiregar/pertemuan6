@@ -10,6 +10,3 @@ b=int(b)
 print("Hasil penjumlahan {1}+{0}=%d".format(a,b) %(a+b))
 print("Hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
 
-print('{0:8} | {1:9}'.format('buah','Jumlah'))
-print('{0:8} | {1:9}'.format('Apel',3.))
-print('{0:8} | {1:9}'.format('Jeruk',10))

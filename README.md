@@ -1,9 +1,7 @@
 # pertemuan6
 # pertemuan6_smt1
 Repository ini di buat untuk memenuhi tugas bahasa pemrograman pertemuan ke 6 <br> <br>
-### Nama  : Lydia Diffani Siregar<br>
-### Nim   : 312010498<br>
-### Kelas : TI.20 A.1<br><br>
+
 
 DAFTAR ISI
 | No | Description | Link |
@@ -19,12 +17,6 @@ Pada pertemuan 5 Bahasa Pemrograman saya diberi tugas oleh Dosen untuk membuat A
 ![tugas_5](foto/biodata.png)<br>
 Saat ini saya akan menjelaskan hasil dari tugas tersebut.<br>
 Berikut source code nya atau Klik Link berikut ([Tugas 5 python](pertemuan5.py)): <br>
- python
-print("======================================") <br>
-print("= NAMA    : LYDIA DIFFANI SIREGAR     ") <br>
-print("= NIM     : 312010498                 ") <br>
-print("= KELAS   : TI.20 A.1                 ") <br>
-print("======================================") <br>
 
 ```` python
 print("Please enter your full name : ")
