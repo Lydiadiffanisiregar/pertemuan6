@@ -184,7 +184,7 @@ print(w,x,y,z,sep="-----")
 ````
 
 hasil dari syntax / source code diatas adalah seperti berikut ini : <br>
-![Output Separator](gambar/lab1-separator.PNG)
+![Output Separator](foto/spap.png)
 
 
 
